@@ -23,7 +23,7 @@ public static class Program
 
         person.WeightOnMars = cnv.WeightOnMars;
 
-        System.Console.WriteLine($"Your weight in Mars is {person.WeightOnMars}");
+        System.Console.WriteLine($"Your weight in Mars is {person.WeightOnMars.ToString("N2")} kg.");
 
     }
 }
